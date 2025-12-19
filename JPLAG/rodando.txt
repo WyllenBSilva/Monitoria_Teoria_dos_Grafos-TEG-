@@ -1,0 +1,33 @@
+Abra o CMD e dê um CD para a pasta que contém o jplag.jar
+
+video explicativo:
+https://www.youtube.com/watch?v=aB8_tLUWrUc&ab_channel=DasarPemrograman
+
+digite o seguinte código no cmd:
+
+cd C:\Users\wyllen.silva\Desktop\Wyllen\Faculdade\Monitoria\Correção 2025 2 - Tarefa 1 B
+
+--depois:
+java -jar jplag-2.12.1.jar -l c/c++ -s ./arquivo_alunos_tarefab_2025 -r ./arquivos_alunos_results
+
+
+------------
+
+Como rodar o Jplag para verificar plágio:
+
+
+Se você tem java 11 ou superior, use a versão mais recente do Jplag. (atualmente a v.4.3.0)
+Caso contrário, use uma versão anterior do software, no nosso caso, a versão é a v.2.12.1.
+
+Abra o CMD e dê um CD para a pasta que contém o jplag.jar 
+video explicativo:
+https://www.youtube.com/watch?v=aB8_tLUWrUc&ab_channel=DasarPemrograman
+
+Em uma pasta central, crie uma pasta para deixar todos os códigos do alunos (arquivos_alunos) e coloque nessa pasta central o jplag.jar também. O código abaixo coloca o resultado da detecção de plágio dentro da pasta (arquivos_alunos_RESULTS)
+digite o seguinte código no cmd:
+como os arquivos estão em python logo após o comando -l colocaremos python3
+
+java -jar jplag-2.12.1.jar -l python -s ./arquivos_alunos -r ./arquivos_alunos_RESULTS
+
+se não der certo:
+java -jar jplag-2.12.1.jar -l python3 -s ./arquivos_alunos -r ./arquivos_alunos_RESULTS
